@@ -20,7 +20,7 @@ const App = () => {
       <form>
         <label for="name">Enter your name:</label>
         <br/>
-        <input id="name" type="text" onInput={{greeting}}/>
+        <input id="name" type="text" onInput={greeting}/>
       </form>
       <p id="greeting"></p>
     </div>
