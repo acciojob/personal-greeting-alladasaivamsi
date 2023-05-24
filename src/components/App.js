@@ -8,7 +8,7 @@ const App = () => {
     let greet = event.target.value;
     if(greet != "")
     {
-      document.getElementById('greeting').innerHTML = `Hello ${greet}`;
+      document.getElementById('greeting').innerHTML = `Hello ${greet}!`;
     }
     else
     {
