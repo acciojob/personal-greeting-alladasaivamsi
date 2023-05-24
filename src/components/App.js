@@ -5,7 +5,7 @@ import './../styles/App.css';
 const App = () => {
   function greeting(event) {
     event.preventDefault();
-    let greet = event.terget.value;
+    let greet = event.target.value;
     if(greet != "")
     {
       document.getElementById('greeting').innerHTML = `Hello ${greet}`;
